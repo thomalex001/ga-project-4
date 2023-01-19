@@ -11,7 +11,7 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = '__all__' 
 
 
-# class PopulatedAlbumSerializer(AlbumSerializer):
+# class PopulatedProductSerializer(AlbumSerializer):
 #     genres = GenreSerializer(many=True)
 #     comments = PopulatedCommentSerializer(many=True)
 #     artist = ArtistSerializer()

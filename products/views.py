@@ -52,7 +52,7 @@ class ProductDetailView(APIView):
     def get(self, _request, pk):
         product = self.get_product(pk=pk)
   
-        serialized_product = PopulatedProductSerializer(product)
+        serialized_product = ProductSerializer(product)
         return Response(serialized_product.data, status=status.HTTP_200_OK)
 
     def put(self, request, pk):
