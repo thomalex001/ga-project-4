@@ -7,7 +7,7 @@ from django.db import IntegrityError
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 from .models import Product
-from .serializers import ProductSerializer 
+from .serializers import ProductSerializer, PopulatedProductSerializer
 
 
 class ProductListView(APIView):
@@ -15,7 +15,7 @@ class ProductListView(APIView):
 
     def get(self, _request):
         products = Product.objects.all() 
-        serialized_products = ProductSerializer(products, many=True)
+        serialized_products = PopulatedProductSerializer(products, many=True)
         return Response(serialized_products.data, status=status.HTTP_200_OK)
 
     def post(self, request):
