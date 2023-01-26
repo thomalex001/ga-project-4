@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import Product
-# from types.serializers.common import GenreSerializer
-# from sizes.serializers.populated import PopulatedSizesSerializer
+from type.serializers.common import TypeSerializer
+from jwt_auth.serializers.common import UserSerializer
 
 
 
@@ -11,7 +11,6 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = '__all__' 
 
 
-# class PopulatedAlbumSerializer(AlbumSerializer):
-#     genres = GenreSerializer(many=True)
-#     comments = PopulatedCommentSerializer(many=True)
-#     artist = ArtistSerializer()
+class PopulatedProductSerializer(ProductSerializer):
+  type = TypeSerializer()
+  owner = UserSerializer()
