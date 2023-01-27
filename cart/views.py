@@ -8,7 +8,6 @@ from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnl
 
 from .models import Cart
 
-
 class CartListView(APIView):
     permission_classes = (IsAuthenticated, )
 
@@ -50,8 +49,8 @@ class CartDetailView(APIView):
 
     def put(self, request, pk):
         cart_to_edit = self.get_cart(pk=pk)
-        if cart_to_edit.owner != request.user:
-            raise PermissionDenied()
+        # if cart_to_edit.owner != request.user:
+        #     raise PermissionDenied()
 
         updated_cart = CartSerializer(cart_to_edit, data=request.data)
         try:
