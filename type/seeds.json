@@ -1,0 +1,58 @@
+[
+{
+  "model": "type.type",
+  "pk": 1,
+  "fields": {
+    "name": "Frame"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 2,
+  "fields": {
+    "name": "Wheels (set)"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 3,
+  "fields": {
+    "name": "Handlebar"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 4,
+  "fields": {
+    "name": "Handles (set)"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 5,
+  "fields": {
+    "name": "Pedals (set)"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 6,
+  "fields": {
+    "name": "Fork"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 7,
+  "fields": {
+    "name": "Crank & Arm"
+  }
+},
+{
+  "model": "type.type",
+  "pk": 8,
+  "fields": {
+    "name": "Brake Calipers (set)"
+  }
+}
+]

@@ -23,7 +23,7 @@ class RegisterView(APIView):
 
 class LoginView(APIView):
     def post(self, request):
-        # get the data from the request
+
         email = request.data.get('email')
         password = request.data.get('password')
         try:
@@ -33,7 +33,7 @@ class LoginView(APIView):
         if not user_to_login.check_password(password):
             raise PermissionDenied(detail='Invalid Credentials')
 
-        dt = datetime.now() + timedelta(days=7)  # how long the token will be valid for
+        dt = datetime.now() + timedelta(days=7)  
 
         token = jwt.encode(
             {'sub': user_to_login.id, 'exp': int(dt.strftime('%s'))},

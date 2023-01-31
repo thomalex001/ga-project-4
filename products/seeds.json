@@ -1,0 +1,242 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "type": 1,
+    "dimensions": "20x20",
+    "brand": "Raleigh",
+    "color": "Brown",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/-BgAAOSwe99gjcMF/s-l300.jpg",
+    "price": "39.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "type": 1,
+    "dimensions": "20x20",
+    "brand": "Claud Butler",
+    "color": "Blue",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/-qIAAOSwlHlhrfZV/s-l300.jpg",
+    "price": "32.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "type": 2,
+    "dimensions": "70x56",
+    "brand": "Peugeot",
+    "color": "Black",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/d3YAAOSwcIFjzd2l/s-l300.jpg",
+    "price": "39.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "type": 2,
+    "dimensions": "70x56",
+    "brand": "Shimano",
+    "color": "Black",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/wkUAAOSwDiBZFGRc/s-l1600.jpg",
+    "price": "72.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "type": 3,
+    "dimensions": "20x20",
+    "brand": "Raleigh",
+    "color": "Silver",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/k0YAAOSwzvlW8~J2/s-l1600.jpg",
+    "price": "21.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "type": 3,
+    "dimensions": "20x20",
+    "brand": "Giant",
+    "color": "Black",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/I08AAOSwyAJjzSIc/s-l1600.jpg",
+    "price": "8.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "type": 4,
+    "dimensions": "5x5",
+    "brand": "Shimano",
+    "color": "Black",
+    "material": "Rubber",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/9hkAAOSwykpi37LQ/s-l300.jpg",
+    "price": "6.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "type": 4,
+    "dimensions": "5x5",
+    "brand": "Peugeot",
+    "color": "Orange",
+    "material": "Rubber",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/uCMAAOSwQuRi37LR/s-l1600.jpg",
+    "price": "14.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "type": 5,
+    "dimensions": "5x5",
+    "brand": "Shimano",
+    "color": "Blue",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/6VMAAOSwCStjxWT~/s-l1600.jpg",
+    "price": "16.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "type": 5,
+    "dimensions": "5x5",
+    "brand": "Claud Butler",
+    "color": "Black",
+    "material": "Carbon Fibre",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/1joAAOSwGh1gh8hJ/s-l1600.jpg",
+    "price": "28.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "type": 6,
+    "dimensions": "70x56",
+    "brand": "Raleigh",
+    "color": "Pink/Grey",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/gLIAAOSwjf9jyCee/s-l300.png",
+    "price": "28.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "type": 6,
+    "dimensions": "70x56",
+    "brand": "Claud Butler",
+    "color": "Blue",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/bP0AAOSwNQxjghwQ/s-l300.jpg",
+    "price": "21.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "type": 7,
+    "dimensions": "15x12",
+    "brand": "Claud Butler",
+    "color": "Black",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/5GgAAOSw9-ZhlR-h/s-l300.png",
+    "price": "14.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "type": 7,
+    "dimensions": "22x23",
+    "brand": "Shimano",
+    "color": "Silver",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/NgMAAOSwy8Jc1Uyk/s-l1600.jpg",
+    "price": "13.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "type": 8,
+    "dimensions": "15x12",
+    "brand": "Claud Butler",
+    "color": "Black",
+    "material": "Alloy",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/nKwAAOSwkwte73Bx/s-l300.jpg",
+    "price": "14.00",
+    "owner": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "type": 8,
+    "dimensions": "15x12",
+    "brand": "Claud Butler",
+    "color": "Silver",
+    "material": "Steel",
+    "description": "very nice",
+    "image": "https://i.ebayimg.com/images/g/vb4AAOSwAjpj0p2Y/s-l300.jpg",
+    "price": "21.00",
+    "owner": 1
+  }
+}
+]
