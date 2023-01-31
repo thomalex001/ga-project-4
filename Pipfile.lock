@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d4ec6bb86238384e1fdf76499b9324a5a2a0980d02d3948c2d026f1da3e5589a"
+            "sha256": "245ac4d2c1858aaf392896f505738e20c7ddcb8bef4e84fc60e73f20aad869d2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,11 +26,11 @@
         },
         "astroid": {
             "hashes": [
-                "sha256:14c1603c41cc61aae731cad1884a073c4645e26f126d13ac8346113c95577f3b",
-                "sha256:6afc22718a48a689ca24a97981ad377ba7fb78c133f40335dfd16772f29bcfb1"
+                "sha256:6891f444625b6edb2ac798829b689e95297e100ddf89dbed5a8c610e34901501",
+                "sha256:df164d5ac811b9f44105a72b8f9d5edfb7b5b2d7e979b04ea377a77b3229114a"
             ],
             "markers": "python_full_version >= '3.7.2'",
-            "version": "==2.13.3"
+            "version": "==2.13.5"
         },
         "dill": {
             "hashes": [
@@ -55,6 +55,14 @@
             "index": "pypi",
             "version": "==4.1.5"
         },
+        "django-cors-headers": {
+            "hashes": [
+                "sha256:37e42883b5f1f2295df6b4bba96eb2417a14a03270cb24b2a07f021cd4487cf4",
+                "sha256:f9dc6b4e3f611c3199700b3e5f3398c28757dcd559c2f82932687f3d0443cfdf"
+            ],
+            "index": "pypi",
+            "version": "==3.13.0"
+        },
         "django-on-heroku": {
             "hashes": [
                 "sha256:4a72ade056335112cba22eea332552d840b718dd8140d43c2d70bb739875955b",
@@ -73,11 +81,11 @@
         },
         "isort": {
             "hashes": [
-                "sha256:6db30c5ded9815d813932c04c2f85a360bcdd35fed496f4d8f35495ef0a261b6",
-                "sha256:c033fd0edb91000a7f09527fe5c75321878f98322a77ddcc81adbd83724afb7b"
+                "sha256:8bef7dde241278824a6d83f44a544709b065191b95b6e50894bdc722fcba0504",
+                "sha256:f84c2818376e66cf843d497486ea8fed8700b340f308f076c6fb1229dff318b6"
             ],
-            "markers": "python_full_version >= '3.7.0'",
-            "version": "==5.11.4"
+            "markers": "python_full_version >= '3.8.0'",
+            "version": "==5.12.0"
         },
         "lazy-object-proxy": {
             "hashes": [
