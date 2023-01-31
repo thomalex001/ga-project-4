@@ -18,15 +18,12 @@ class CartListView(APIView):
             add_to_cart.is_valid()
             add_to_cart.save()
             return Response(add_to_cart.data, status=status.HTTP_201_CREATED)
-        # below is the exception thrown when we miss a required field
         except IntegrityError as e:
             return Response({
                 "detail": str(e),
             }, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
-        # AssertionError occurs when the incorrect type is passed as a value for an existing field
         except AssertionError as e:
             return Response({"detail": str(e)}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
-        # catch all exception
         except:
             return Response("Unprocessable Entity", status=status.HTTP_422_UNPROCESSABLE_ENTITY)
 
